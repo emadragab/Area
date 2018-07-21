@@ -1,7 +1,7 @@
 import javax.annotation.processing.SupportedSourceVersion;
 import java.util.Scanner;
-
-public class CompueArea {
+ //simple App for compute Loan in given number of years and interest rate
+public class ComputeLoan {
 
 public static void main (String [] args)
 
