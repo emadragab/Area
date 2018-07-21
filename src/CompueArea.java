@@ -18,9 +18,10 @@ public static void main (String [] args)
      double m= 1+monhtlyinterset;
     double monthpayment=loanamount*monhtlyinterset/(1-1/Math.pow(m,p));
     double totalpayment=monthpayment*numofyears*12;
-
+         // here the display messages
     System.out.println("the monthly payment is $"+(int)(monthpayment *100) / 100.0);
     System.out.println("the total payment is $"+(int)(totalpayment*100)/100.0);
+
 
 
 
