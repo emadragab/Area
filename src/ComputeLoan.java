@@ -21,6 +21,21 @@ public static void main (String [] args)
          // here the display messages
      System.out.println("the monthly payment is $"+(int)(monthpayment *100) / 100.0);
      System.out.println("the total payment is $"+(int)(totalpayment*100)/100.0);
+        // calc Bast
+      System.out.println("enter b");
+      int b = scanner.nextInt();
+      System.out.println("enter a");
+      int a = scanner.nextInt();
+      System.out.println("enter c");
+     int c = scanner.nextInt();
+      int undergazer=(b*b)- 4 * a * c ;
+     double x = Math.sqrt(undergazer);
+     double bast = -1 * b + x ;
+     double makam = 2* a ;
+     double result = bast / makam;
+     System.out.println("result is "+result);
+
+
 
 }
 
